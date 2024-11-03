@@ -1,0 +1,24 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/* Căn chỉnh bảng và đường viền tổng thể */
+table {
+    width: 100%;
+    border-spacing: 5px;
+}
+
+/* Khoảng cách padding cho ô trong bảng */
+th, td {
+    padding: 8px;
+}
+
+/* Căn chỉnh văn bản */
+th {
+    text-align: center;
+}
+
+td {
+    text-align: right;
+}
